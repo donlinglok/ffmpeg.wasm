@@ -1,4 +1,4 @@
-importScripts('/dist/ffmpeg.dev.js');
+importScripts('./dist/ffmpeg.dev.js');
 const ffmpeg = self.FFmpeg.createFFmpeg({log: true});
 
 onmessage = async (event) => {
